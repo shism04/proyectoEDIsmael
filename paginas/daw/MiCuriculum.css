@@ -1,0 +1,316 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:"Poppins",sans serif;
+  }
+  .foto-contacto{
+    height:9rem;
+    display:flex;
+    align-items:center;
+  justify-content:space-between;
+    padding:1.2rem 10%;
+    background: #f2f2f2;
+  
+  }
+  .foto-ismael img{
+    position:absolute;
+    width:10rem;
+    height:10rem;
+    border-radius:50%;
+    object-fit:cover;
+    z-index:1;
+  } 
+  .contacto ul {
+    list-style:none;
+    display:inline-flex;
+  }
+  .contacto ul li{
+    margin-right:4rem;
+    font-weight:600;
+  }
+  .contacto ul li i{
+    padding:.3rem;
+    color:white;
+    background:#000000;
+  }
+  .contacto ul li a{
+    color:#000000;
+    margin-left:.5rem;
+    text-decoration:none;
+  }
+  .contacto ul li a:hover{
+    color: #595959;
+  }
+  .nombre{
+    position:relative;
+    background:	 #B49679;
+    height:4rem;
+  }
+  .nombre h1{
+    font-size:2.5rem;
+    font-weight:900;
+    padding:0rem 20%;  
+    color:white;
+  }
+  #main{
+    padding:0 5%;
+  }
+  hr{
+    font-size:1rem;
+  }
+  .Sobre-mi{
+    display:flex;
+    padding:2rem 0rem;
+    
+  }
+  h2{
+    font-size:2rem;
+    font-weight:700;
+    color:#B49679;
+  }
+  .Sobre-mi .texto{
+    border-left:6px solid #B49679; 
+    margin-left:3rem;
+    max-width:80%;
+    padding:1rem;
+  }
+  .Experencia-laboral{
+    padding:2rem 0rem;
+  }
+  .Experencia-laboral table{
+    margin-top:1.5rem;
+    border:2px solid black;
+    border-collapse:collapse;
+  }
+  tr,td{
+    border:2px solid black;
+  }
+  td{
+    padding:1.5rem;
+  }
+  td:nth-child(1){
+    font-size:1.2rem;
+    background:#B49679;
+    color:#ffffff;
+    font-weight:700;
+  }
+  td i{
+    margin-right:1rem;
+    color:#000000;
+  }
+  td h4 {
+    color:#B49679;
+    font-size:1.2rem;
+    margin-bottom:1rem;
+  }
+  td ul{
+    list-style-position:inside;
+  }
+  
+  .Formacion-academica h2{
+    margin:2rem 0rem;
+  }
+  .line{
+    height:.2rem;
+    background:#000000;
+    border-radius:1rem;
+    margin-left:.5rem;
+  }
+  .caja-row{
+    display:flex;
+    justify-content:space-between;
+    margin:2rem 0rem;
+  }
+  .caja_educacion{
+    width:23rem;
+    border:2px solid black;
+    border-radius:1.1rem;
+    margin-top:-.5em;
+    padding:1.5rem;
+    box-sizing:border-box;
+    position:relative;
+  }
+  .caja_educacion::before{
+    position:absolute;
+    content:"";
+    top:0;
+    left:0;
+    width:1rem;
+    height:1rem;
+    border-radius:50%;
+    background:#B49679;
+    margin-top:-2.3rem;
+  }
+  
+  .contenido i{
+    margin-right:.8rem;
+  }
+  .contenido span {
+    font-size:1.1rem;
+    font-weight:600;
+  }
+  .contenido h3{
+    color:#B49679;
+    margin:.5rem 0rem;
+    font-weight:900;
+  }
+  .aptitudes{
+    padding:2rem 0rem;
+  }
+  .aptitudes h3{
+    font-size:1.3rem;
+  }
+  .aptitudes-contenido{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:1.5rem 0rem;
+    
+  }
+  .aptitudes-contenido .progreso span{
+    margin-left:3rem;
+    color:#B49679;
+    font-weight:700;
+  }
+  .barra{
+    width:100%;
+    height:.5rem;
+    border-radius:.3rem;
+    margin:rem 0rem;
+    border:.2rem solid black;
+  }
+  .barra .porcentage{
+    border-radius:.1rem;
+    background:#B49679;
+    height:100%; 
+  }
+  .noventa{
+    width:90%;
+  }
+  .ochenta{
+    width:80%;
+  }
+  .setenta {
+    width:70%;
+  }
+  .sesenta {
+    width:60%;
+  }
+  .ochenta-cinco{
+    width:85%;
+  }
+  .setenta-cinco {
+    width:75%;
+  }
+  .sesenta-cinco {
+    width:65%;
+  }
+  .trenta{
+    width:30%;
+  }
+  .cuarenta-cinco{
+    width:45%;
+  }
+  .intereses{
+    display:flex;
+    padding:2rem 0rem;
+    
+  }
+  .intereses ul{
+    margin: 1rem 0 0 3rem;
+    list-style:none inside;
+    font-size:1.2rem;
+    font-weight:600;
+    border-left:6px solid #B49679; 
+    padding-left:1rem;
+  }
+  .intereses ul li{
+    margin-bottom:1rem;
+  }
+  .contacta-mi {
+    display:flex;
+    background:#000000;
+    color:#ffffff;
+    padding:5rem 5%;
+  }
+  .contacta-mi-izquierda{
+    flex-basis:35%;
+  }
+  .contacta-mi-derecha{
+    flex-basis:65%;
+  }
+  .contacta-mi-izquierda h2{
+    font-size:2.5rem;
+  }
+  .contacta-mi-izquierda p{
+    margin-top:1.5rem;
+    font-size:1.1rem;
+    font-weight:400;
+  }
+  .contacta-mi-izquierda p i{
+    margin-right:1rem;
+    color:#B49679;
+  }
+  .contacta-mi-izquierda p a{
+    text-decoration:none;
+    color:#ffffff;
+  }
+  .contacta-mi-izquierda p a:hover{
+    color:#B49679
+  }
+  
+  .redes_sociales{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 2.5rem;
+  
+  }
+  .redes_sociales i {
+      margin-right: 18px;
+      font-size: 25px;
+      color: #ffffff;
+      transition: transform 0.5s;
+  }
+  .redes_sociales i:hover {
+      color:#B49679;
+      transform: translateY(-4px);
+  }
+  .contacta-mi-derecha{
+    width:100%
+  }
+  form label{
+    font-size:1.1rem;
+  }
+  form input,form textarea{
+    width:100%;
+    border:0;
+    ourline:none;
+    margin:1rem 0rem;
+    padding:1rem;
+    color:#ffffff;
+    background:#262626;
+    font-size:1rem;
+    
+  }
+  .contacta-mi-derecha button{
+    font-size:1.1rem;
+    width:8rem;
+    background:#B49679;
+    padding:.6rem 1rem;
+    border-radius:.5rem;
+    font-weight:700;
+    border:none;
+    margin-top:1rem;
+  }
+  .copyright{
+    width:100%;
+    text-align:center;
+    padding:1.5rem 0;
+    font-weight:400;
+    background:#262626;
+    color:#ffffff;
+   
+  }
+  
+  
